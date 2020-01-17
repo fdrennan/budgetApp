@@ -15,23 +15,7 @@ button {
 button:disabled {
   cursor: default;
 }
-.p-tag {
-  background: tan;
-}
 
-.s-container {
-  border-color: black;
-  border-style: solid;
-  background: lightblue;
-  display: flex;
-}
-
-.m-container {
-  border-color: black;
-  border-style: dotted;
-  background: black;
-  background: lightcoral;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+.is-active {
+  font-weight: bold;
 }
