@@ -5,7 +5,7 @@ const pathName = path.join(__dirname, 'public')
 console.log(`Building and bundling in ${pathName}`);
 
 module.exports = {
-    entry: './src/App.js',
+    entry: './src/components/redux-expensify.js',
     mode: 'development',
     output: {
         path: pathName,
